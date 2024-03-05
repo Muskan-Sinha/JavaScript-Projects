@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="flex justify-center items-center h-screen ">
+    <div class=" border border-[#2f312b] border-r-8 border-b-8 border-l-2 border-t-2 rounded-md ">
+        <div class="bg-white h-32 flex items-end ">
+            <input class="text-4xl font-bold m-4 w-72" id="ans" type="text">
+        </div>
+        <div class="bg-[#b1e9cf] p-2">
+            <div class="font-semibold">
+                <button
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12  m-1" id="delete">DEL</button>
+                <button
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1" id="log">LOG</button>
+                <button
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1" id="infinity">&infin;</button>
+                <button
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1" id="divide">/</button>
+            </div>
+            <div class="font-semibold ">
+                <button id="1"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1" >1</button>
+                <button id="2"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1 " >2</button>
+                <button id="3"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 items-center m-1">3</button>
+                <button id="mul"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">*</button>
+            </div>
+            <div class="font-semibold ">
+                <button id="4"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">4</button>
+                <button id="5"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">5</button>
+                <button id="6"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">6</button>
+                <button id="add"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">+</button>
+            </div>
+            <div class="font-semibold ">
+                <button id="7"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">7</button>
+                <button id="8"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">8</button>
+                <button id="9"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 items-center m-1">9</button>
+                <button id="subtract"
+                    class="bg-white  w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">-</button>
+            </div>
+            <div class="font-semibold">
+                <button id="result" class="bg-white border border-e-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1 w-36
+                ">RESULT</button>
+                <button
+                    class="bg-white w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 items-center m-1">0</button>
+                <button
+                    class="bg-white w-16 border border-r-4 border-b-4 border-[#2f312b] rounded-md font-semibold h-12 m-1">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
